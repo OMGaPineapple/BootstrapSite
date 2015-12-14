@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="color-box">
+        <div class="anim">
+        </div>
+    </div>
+    <div id="overarching-div">
+        <div id="bootstrap-overide">
+            <div class="header">
+                <div class="container">
+                    <div class="navbar">
+                        <h1 class="navbar-brand">Cody <span>Lawson</span></h1>
+                        <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target=".navbar-collapse">&#9776;</button>
+                        <div class="navbar-collapse collapse navbar-toggleable-xs">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">About Me</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weatherContainer">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h2>Python Weather Site<br><span>
+                            Alright so I couldn't exactly host this one. A brief summary of what this project entailed. I should note that the entire project was hosted on my raspberry pi. First I created a database and then a form that asked the user for the date. The form was actually my first look at JQuery. The data that the form receives then gets sent to a python script, the script queries my database with SQLite3. After that the script finds all of the data in the database with the correct date it prints it to the screen. This is probably the most technically impressive part of my portfolio at the moment.</span></h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <hr>
+                        <h2>The Form</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <p>This is the html form we alluded to above, it askes the user to pick a date in December and then sends the value to the python script.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7">
+                        <img src="img/Python_Screen_Grabs/input.jpg" alt="mid3">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <hr>
+                        <h2>How Does The Form Work?</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <img src="img/Python_Screen_Grabs/form.jpg" alt="mid3">
+                    </div>
+                    <hr>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <hr>
+                        <h2>The Output</h2>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-7 col-md-7">
+                        <img src="img/Python_Screen_Grabs/output.jpg" alt="mid3">
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <p>So this is the output of the data we sent above. Using Python we query the database and send back the appropriate values.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <hr>
+                        <h2>How Does The Python Work?</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <img src="img/Python_Screen_Grabs/pythonScript.jpg" alt="mid3">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <hr>
+                        <h2>The Database<br><span>
+                            Lastly here's a screen grab of some of the values within my database. I think at the end there were nearly 400 values. I could of added more but it was never really about the weather.</span></h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <img src="img/Python_Screen_Grabs/database.jpg" alt="mid3">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+
+                <div class="twitter">
+                    <a href="https://twitter.com/CodyLawson15"><i class="fa fa-twitter fa-3x"></i></a>
+                </div>
+                <div class="git">
+                    <a href="https://github.com/OMGaPineapple"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div class="linkedIn">
+                    <a href="https://ca.linkedin.com/in/cody-lawson-1078626b"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                </div>
+                <p>Do you want to see what I've been up to?
+                    <br> Check out the links to the right!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="color-box">
+        <div class="anim">
+        </div>
+    </div>
+</body>
+
+
+
+</html>
