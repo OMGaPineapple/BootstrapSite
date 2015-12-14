@@ -38,6 +38,7 @@
 .container2 h2 {
     font-size: 32px;
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
 }
 
 .form p {
