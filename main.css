@@ -20,6 +20,14 @@
     border: 5px solid #383938;
 }
 
+.contactContent {
+    margin: 0 25px;
+    padding: 0 25px;
+    background-color: #ffffff;
+    border: 5px solid #383938;
+    padding-bottom: 25px;
+}
+
 .projectContainer h1 {
     font-size: 36px;
     font-family: 'Libre Baskerville', serif;
@@ -136,13 +144,6 @@
 
 .footer i:hover {
     color: #fff;
-}
-
-.spacing {
-    padding-top: 615px;
-    margin: 0 25px;
-    background-color: #fff;
-    border: 5px solid #383938;
 }
 
 #bootstrap-overide img {
